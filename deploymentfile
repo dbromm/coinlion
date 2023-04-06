@@ -20,7 +20,7 @@ services:
       - "--probe.spy.interval=30s"
       - "--probe.full-report-every=1"
       - "--weave=false"
-      - "10.205.72.4:4043"
+      - "10.10.0.4:4043"
     environment:
       - ENABLE_BASIC_AUTH=true
       - BASIC_AUTH_USERNAME=scope2orionuser
