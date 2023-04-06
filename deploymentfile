@@ -24,7 +24,7 @@ services:
     environment:
       - ENABLE_BASIC_AUTH=true
       - BASIC_AUTH_USERNAME=scope2orionuser
-      - BASIC_AUTH_PASSWORD=mWtlBFg6jAN72h+3LuF974kNyUO9g/mExx5GiAOqAoA=
+      - BASIC_AUTH_PASSWORD=test
     logging:
       driver: json-file
       options:
